@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Marica Antonacci "marica.antonacci@gmail.com"
 
-ONEDATA_VERSION=3.0.0.beta6-1
+ENV ONEDATA_VERSION 3.0.0.beta6-1
 
 RUN apt-get update &&  apt-get install -y curl
 
